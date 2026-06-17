@@ -11,9 +11,9 @@ I also learned how to install and configure additional server services such as D
 
 ### What I Did
 
-For this activity, I created test files and folders inside the Documents directory. I then created a Bash script called `testscript` that copies files from the Documents folder to a backup folder.
+For this activity, I created test files and folders inside the Documents directory. I then created a Bash script called testscript that copies files from the Documents folder to a backup folder.
 
-After that, I modified the script so that it creates a ZIP archive with the current date as the filename. I gave the script execute permission and moved it to `/usr/bin` so that it could be executed from any directory.
+After that, I modified the script so that it creates a ZIP archive with the current date as the filename. I gave the script execute permission and moved it to /usr/bin so that it could be executed from any directory.
 
 Finally, I edited the crontab file and added a cron job to run the backup script automatically every hour.
 
@@ -53,7 +53,7 @@ sudo docker run hello-world
 
 ### What I Did
 
-I installed MariaDB and started the service. I checked the version using `mysql --version` and logged into MariaDB using `sudo mysql`.
+I installed MariaDB and started the service. I checked the version using mysql --version and logged into MariaDB using sudo mysql.
 
 Inside MariaDB, I ran:
 
@@ -63,7 +63,7 @@ SHOW DATABASES;
 
 The command displayed the default databases, which confirmed that MariaDB was installed and working correctly.
 
-I also attempted to run `mysql_secure_installation`, but the command was not available in my environment.
+I also attempted to run mysql_secure_installation, but the command was not available in my environment.
 However, MariaDB was running successfully and I was able to access the databases.
 
 
@@ -73,7 +73,7 @@ However, MariaDB was running successfully and I was able to access the databases
 
 I installed and enabled rsyslog. After starting the service, I checked its status to make sure it was running properly.
 
-I also used the `logger` command to create a test message and checked `/var/log/syslog` to confirm that the message was recorded.
+I also used the logger command to create a test message and checked /var/log/syslog to confirm that the message was recorded.
 
 ### Commands Used
 
