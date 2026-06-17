@@ -7,7 +7,7 @@
 - Certbot could not be configured successfully on UTM.
 - Some MariaDB commands were unavailable in my environment.
 
-## Additional Server Service
+## Additional Server Services
 
 I chose Docker as my additional server service.
 
