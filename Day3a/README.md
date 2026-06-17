@@ -31,7 +31,7 @@ to check if the domain was resolving to the correct IP address.
 ### What I Learned
 
 From this activity, I learned that DNS is responsible for translating domain names into IP addresses. 
-I also learned that tools like `ping` and `nslookup` are useful for checking if a domain is working correctly.
+I also learned that tools like ping and nslookup are useful for checking if a domain is working correctly.
 
 ---
 
